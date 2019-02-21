@@ -1,0 +1,50 @@
+header {
+    background-color: green;
+    order: -1;
+}
+
+footer {
+    background-color: red;
+    order: 1;
+}
+
+.navigation {
+    order: -1;
+    background-color: lightpink;
+    padding: 1em;
+}
+
+article {
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.article-nav>nav {
+    height: 100%;
+}
+
+.article-content {
+    padding: 1em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-paragraphs {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-paragraphs>section {
+    width: 100%;
+    padding: 1em;
+}

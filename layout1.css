@@ -1,0 +1,22 @@
+header {
+    background-color: green;
+    order: -1;
+}
+
+footer {
+    background-color: red;
+    order: 1;
+}
+
+nav {
+    background-color: lightpink;
+}
+
+article {
+    background-color: gold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
